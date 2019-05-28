@@ -46,8 +46,6 @@ bool ATankPlayerController::GetSightRayHitLocation(FVector& OutHitLocation) cons
 		//UE_LOG(LogTemp, Warning, TEXT("HitLocation: %s"), *WorldDirection.ToString());
 		GetLookVectorHitLocation(OutHitLocation, WorldDirection);
 	}
-
-
 	return true;
 }
 
